@@ -9,7 +9,7 @@ class Defaults
 {
     public function __construct(
         public string $key,
-        public string $value,
+        public string|null $value,
     ) {
     }
 }
